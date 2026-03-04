@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" width="200">
+</p>
+
 # Kagle Engine
 
 Kagle is a simple local AI assistant that runs directly on your computer.
