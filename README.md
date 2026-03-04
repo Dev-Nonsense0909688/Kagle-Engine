@@ -55,7 +55,7 @@ Download a GGUF file and place it in the project folder.
 Kagle/
 ├─ qwen.gguf
 ├─ brain.py
-├─ ui.py
+├─ cli.py
 ```
 
 ## License
