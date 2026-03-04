@@ -30,7 +30,7 @@ Start the interface with:
 python main.py
 
 ## Commands
-
+```
 /help – show available commands
 /analyze <file> – analyze the structure of a file
 /read <file> – summarize a file
@@ -41,7 +41,7 @@ python main.py
 /context <number> – change context memory
 /clear – clear chat history
 /exit – close Kagle
-
+```
 ## Notes
 
 Kagle is built to run on normal machines without a GPU.
