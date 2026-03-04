@@ -72,6 +72,12 @@ Kagle/
 
 Open source.
 
+## Screenshots
+
+<p align="center">
+  <img src="images/image1.png" width="230"/>
+</p>
+
 
 ## TODO
 `TODO: Make the tool-chain module for getting system_data.`
