@@ -1,5 +1,11 @@
 <p align="center">
-  <img src="logo.png" width="200">
+  <img src="logo.png" width="180"/>
+</p>
+
+<h1 align="center">Kagle Engine</h1>
+
+<p align="center">
+Lightweight local AI CLI assistant for CPU-only systems
 </p>
 
 # Kagle Engine
