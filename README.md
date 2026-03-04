@@ -21,32 +21,13 @@ You need Python 3.10 or newer.
 
 Install the dependencies:
 
-pip install llama-cpp-python textual rich psutil colorama
-
-## Project Layout
-
-Kagle/
-├─ brain.py
-├─ cli.py
-├─ ui.py
-├─ tools.py
-├─ model_loader.py
-├─ prompts/
-│  ├─ chat.txt
-│  ├─ analyze.txt
-│  ├─ summarize.txt
-│  └─ write.txt
-└─ qwen.gguf
+pip install llama-cpp-python textual psutil colorama
 
 ## Running Kagle
 
 Start the interface with:
 
-python ui.py
-
-Or run the command line version:
-
-python cli.py
+python main.py
 
 ## Commands
 
