@@ -47,6 +47,17 @@ python main.py
 Kagle is built to run on normal machines without a GPU.
 Performance will depend on the model size and CPU speed.
 
+Kagle requires a GGUF model to run.
+model: `https://huggingface.co/Qwen/Qwen2-1.5B-Instruct-GGUF/blob/main/qwen2-1_5b-instruct-q4_k_m.gguf`
+
+Download a GGUF file and place it in the project folder.
+```
+Kagle/
+├─ qwen.gguf
+├─ brain.py
+├─ ui.py
+```
+
 ## License
 
 Open source.
