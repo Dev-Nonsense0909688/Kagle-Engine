@@ -75,7 +75,7 @@ Open source.
 ## Screenshots
 
 <p align="center">
-  <img src="images/image1.png" width="230"/>
+  <img src="images/image1.png" width="530"/>
 </p>
 
 
