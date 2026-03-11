@@ -44,7 +44,7 @@ class ModelLoader:
         print(
             f"[runtime] loading {self.model_name} | "
             f"threads={cfg['threads']} | ctx={cfg['ctx']} | "
-            f"batch={cfg['n_batch']} | gpu_layers={cfg['gpu_layers']}"
+            f"batch={2048} | gpu_layers={cfg['gpu_layers']}"
         )
 
         start = time.time()
@@ -57,10 +57,10 @@ class ModelLoader:
 
                 model = Llama(
                     model_path=self.path,
-                    n_ctx=cfg["ctx"],
+                    n_ctx=1024,
                     n_threads=cfg["threads"],
                     n_gpu_layers=cfg["gpu_layers"],
-                    n_batch=cfg["n_batch"],
+                    n_batch=2048,
                     use_mmap=True,
                     use_mlock=cfg["use_mlock"],
                     verbose=False,

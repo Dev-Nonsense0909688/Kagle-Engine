@@ -301,6 +301,25 @@ Actual performance depends on CPU architecture and memory speed.
 
 ---
 
+# Graphs
+
+## Benchmark (Qwen2-0.5B CPU) [Single Run]
+![Tokens per second comparison](graphs/vs.png)
+
+### Test Conditions:-
+
+  - Processor	Intel(R) Core(TM) i5-7600 CPU @ 3.50GHz   3.50 GHz
+  - Installed RAM	8.00 GB (7.89 GB usable)
+  - Storage	932 GB SSD CT1000BX500SSD1
+  - Graphics Card	Intel(R) HD Graphics 630 (128 MB)
+  - System Type	64-bit operating system, x64-based processor
+
+
+## Tokens per Second of different Models
+
+![Tokens per second comparison](graphs/conduit.png)
+
+
 # Project Goals
 
 Conduit is designed to be:
