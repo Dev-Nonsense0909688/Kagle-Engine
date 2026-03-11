@@ -4,3 +4,4 @@ __pycache__/
 .vscode/
 build/
 dist/
+conduit.egg-info/
